@@ -1,5 +1,6 @@
 import './bootstrap';
 import '../scss/app.scss'
+import _ from 'lodash';
 
 import { createApp } from 'vue';
 

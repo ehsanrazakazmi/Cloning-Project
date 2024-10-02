@@ -22,3 +22,4 @@ Broadcast::channel('chat-channel',function(){
     return Auth::check();
 
 });
+
