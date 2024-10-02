@@ -26,8 +26,9 @@ export default defineConfig({
         },
     },
     build: {
+        outDir: 'dist', // Ensure the output directory is set correctly
         rollupOptions: {
-            external: ['bootstrap'], // Treat bootstrap as an external dependency
+            external: ['pusher-js'], // Adjust as needed
         },
     },
 });
